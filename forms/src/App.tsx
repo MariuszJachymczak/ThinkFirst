@@ -1,12 +1,9 @@
-
-import './App.css';
-import PersonalInfoForm from './components/PersonalInfoForm';
-
+import PersonalInfoForm from "./components/PersonalInfoForm";
 
 function App() {
   return (
     <>
- <PersonalInfoForm/>
+      <PersonalInfoForm />
     </>
   );
 }
