@@ -42,7 +42,7 @@ function DatePicker() {
   }, [url]);
   console.log(holidayTypes.includes("OBSERVANCE"));
 
-  // const observance = holidayTypes.includes("OBSERVANCE");
+  const observance = holidayTypes.includes("OBSERVANCE");
 
   return (
     <div className="app">
